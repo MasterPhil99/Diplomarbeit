@@ -1,0 +1,1131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "A Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "a calculator I just turned on",
+            "match": {
+              "location": "RpnCalculatorStepdefs.a_calculator_I_just_turned_on()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1267935,
+              "error_message": "java.lang.NullPointerException\r\n\tat gherkin.formatter.JSONFormatter.getSteps(JSONFormatter.java:235)\r\n\tat gherkin.formatter.JSONFormatter.getCurrentStep(JSONFormatter.java:65)\r\n\tat gherkin.formatter.JSONFormatter.getOutput(JSONFormatter.java:253)\r\n\tat gherkin.formatter.JSONFormatter.write(JSONFormatter.java:136)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.RuntimeOptions$1.invoke(RuntimeOptions.java:294)\r\n\tat com.sun.proxy.$Proxy13.write(Unknown Source)\r\n\tat cucumber.runtime.junit.JUnitReporter.write(JUnitReporter.java:90)\r\n\tat cucumber.runtime.ScenarioImpl.write(ScenarioImpl.java:66)\r\n\tat org.cucumber.example.RpnCalculatorStepdefs.before(RpnCalculatorStepdefs.java:41)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Addition",
+        "description": "",
+        "id": "basic-arithmetic;addition",
+        "after": [
+          {
+            "result": {
+              "duration": 23948,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# Try to change one of the values below to provoke a failure"
+              }
+            ],
+            "line": 8,
+            "name": "I add 4 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 6
+                },
+                {
+                  "val": "5",
+                  "offset": 12
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.adding(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "Runs before scenarios"
+            ],
+            "line": 9,
+            "name": "the result is 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 14
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.the_result_is(double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "A Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 149211421,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a calculator I just turned on",
+            "match": {
+              "location": "RpnCalculatorStepdefs.a_calculator_I_just_turned_on()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 72698,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Another Addition",
+        "description": "",
+        "id": "basic-arithmetic;another-addition",
+        "after": [
+          {
+            "result": {
+              "duration": 20526,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3141829,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "# Try to change one of the values below to provoke a failure"
+              }
+            ],
+            "line": 13,
+            "name": "I add 4 and 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 6
+                },
+                {
+                  "val": "7",
+                  "offset": 12
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.adding(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2387055,
+              "status": "passed"
+            },
+            "output": [
+              "Runs before scenarios"
+            ],
+            "line": 14,
+            "name": "the result is 11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 14
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.the_result_is(double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "A Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 36777,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a calculator I just turned on",
+            "match": {
+              "location": "RpnCalculatorStepdefs.a_calculator_I_just_turned_on()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 56448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Many additions",
+        "description": "",
+        "id": "basic-arithmetic;many-additions;single-digits;2",
+        "after": [
+          {
+            "result": {
+              "duration": 14540,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17442345,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the previous entries:",
+            "match": {
+              "location": "RpnCalculatorStepdefs.thePreviousEntries(RpnCalculatorStepdefs$Entry\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "first",
+                  "second",
+                  "operation"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "1",
+                  "1",
+                  "+"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "2",
+                  "1",
+                  "+"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52599,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I press +",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 8
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.I_press(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119310,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add 1 and 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 6
+                },
+                {
+                  "val": "2",
+                  "offset": 12
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.adding(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50888,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I press +",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 8
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.I_press(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52599,
+              "status": "passed"
+            },
+            "output": [
+              "Runs before scenarios"
+            ],
+            "line": 24,
+            "name": "the result is 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 14
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.the_result_is(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "A Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18816,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a calculator I just turned on",
+            "match": {
+              "location": "RpnCalculatorStepdefs.a_calculator_I_just_turned_on()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 55165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Many additions",
+        "description": "",
+        "id": "basic-arithmetic;many-additions;single-digits;3",
+        "after": [
+          {
+            "result": {
+              "duration": 14540,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 715433,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the previous entries:",
+            "match": {
+              "location": "RpnCalculatorStepdefs.thePreviousEntries(RpnCalculatorStepdefs$Entry\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "first",
+                  "second",
+                  "operation"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "1",
+                  "1",
+                  "+"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "2",
+                  "1",
+                  "+"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53882,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I press +",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 8
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.I_press(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181745,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add 2 and 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 6
+                },
+                {
+                  "val": "3",
+                  "offset": 12
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.adding(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76547,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I press +",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 8
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.I_press(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91086,
+              "status": "passed"
+            },
+            "output": [
+              "Runs before scenarios"
+            ],
+            "line": 24,
+            "name": "the result is 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 14
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.the_result_is(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "A Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26086,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a calculator I just turned on",
+            "match": {
+              "location": "RpnCalculatorStepdefs.a_calculator_I_just_turned_on()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 73553,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Many additions",
+        "description": "",
+        "id": "basic-arithmetic;many-additions;double-digits;2",
+        "after": [
+          {
+            "result": {
+              "duration": 33356,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 836025,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the previous entries:",
+            "match": {
+              "location": "RpnCalculatorStepdefs.thePreviousEntries(RpnCalculatorStepdefs$Entry\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "first",
+                  "second",
+                  "operation"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "1",
+                  "1",
+                  "+"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "2",
+                  "1",
+                  "+"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80822,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I press +",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 8
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.I_press(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172336,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add 10 and 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 6
+                },
+                {
+                  "val": "20",
+                  "offset": 13
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.adding(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353226,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I press +",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 8
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.I_press(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147962,
+              "status": "passed"
+            },
+            "output": [
+              "Runs before scenarios"
+            ],
+            "line": 24,
+            "name": "the result is 35",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 14
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.the_result_is(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "A Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31645,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a calculator I just turned on",
+            "match": {
+              "location": "RpnCalculatorStepdefs.a_calculator_I_just_turned_on()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 468687,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Many additions",
+        "description": "",
+        "id": "basic-arithmetic;many-additions;double-digits;3",
+        "after": [
+          {
+            "result": {
+              "duration": 17533,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1935045,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the previous entries:",
+            "match": {
+              "location": "RpnCalculatorStepdefs.thePreviousEntries(RpnCalculatorStepdefs$Entry\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "first",
+                  "second",
+                  "operation"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "1",
+                  "1",
+                  "+"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "2",
+                  "1",
+                  "+"
+                ],
+                "line": 20
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91942,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I press +",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 8
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.I_press(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 569609,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add 20 and 30",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 6
+                },
+                {
+                  "val": "30",
+                  "offset": 13
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.adding(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167205,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I press +",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+",
+                  "offset": 8
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.I_press(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127007,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the result is 55",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55",
+                  "offset": 14
+                }
+              ],
+              "location": "RpnCalculatorStepdefs.the_result_is(double)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Basic Arithmetic",
+    "description": "",
+    "id": "basic-arithmetic",
+    "keyword": "Feature",
+    "uri": "org/cucumber/example/basic_arithmetic.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 249311,
+              "error_message": "java.lang.NullPointerException\r\n\tat gherkin.formatter.JSONFormatter.getSteps(JSONFormatter.java:235)\r\n\tat gherkin.formatter.JSONFormatter.getCurrentStep(JSONFormatter.java:65)\r\n\tat gherkin.formatter.JSONFormatter.getOutput(JSONFormatter.java:253)\r\n\tat gherkin.formatter.JSONFormatter.write(JSONFormatter.java:136)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.RuntimeOptions$1.invoke(RuntimeOptions.java:294)\r\n\tat com.sun.proxy.$Proxy13.write(Unknown Source)\r\n\tat cucumber.runtime.junit.JUnitReporter.write(JUnitReporter.java:90)\r\n\tat cucumber.runtime.ScenarioImpl.write(ScenarioImpl.java:66)\r\n\tat org.cucumber.example.RpnCalculatorStepdefs.before(RpnCalculatorStepdefs.java:41)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Determine past date",
+        "description": "",
+        "id": "dates-with-different-date-formats;determine-past-date",
+        "after": [
+          {
+            "result": {
+              "duration": 22665,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "today is 2011-01-20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2011-01-20",
+                  "offset": 9
+                }
+              ],
+              "location": "DateStepdefs.today_is(Date)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I ask if Jan 19, 2011 is in the past",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jan 19, 2011",
+                  "offset": 9
+                }
+              ],
+              "location": "DateStepdefs.I_ask_if_date_is_in_the_past(Date)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "the result should be yes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "yes",
+                  "offset": 21
+                }
+              ],
+              "location": "DateStepdefs.the_result_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dates with different date formats",
+    "description": "This feature shows you can have different date formats, as long as you annotate the\r\ncorresponding step definition method accordingly.",
+    "id": "dates-with-different-date-formats",
+    "keyword": "Feature",
+    "uri": "org/cucumber/example/date_calculator.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 181317,
+              "error_message": "java.lang.NullPointerException\r\n\tat gherkin.formatter.JSONFormatter.getSteps(JSONFormatter.java:235)\r\n\tat gherkin.formatter.JSONFormatter.getCurrentStep(JSONFormatter.java:65)\r\n\tat gherkin.formatter.JSONFormatter.getOutput(JSONFormatter.java:253)\r\n\tat gherkin.formatter.JSONFormatter.write(JSONFormatter.java:136)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.RuntimeOptions$1.invoke(RuntimeOptions.java:294)\r\n\tat com.sun.proxy.$Proxy13.write(Unknown Source)\r\n\tat cucumber.runtime.junit.JUnitReporter.write(JUnitReporter.java:90)\r\n\tat cucumber.runtime.ScenarioImpl.write(ScenarioImpl.java:66)\r\n\tat org.cucumber.example.RpnCalculatorStepdefs.before(RpnCalculatorStepdefs.java:41)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.before(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Give correct change",
+        "description": "",
+        "id": "shopping;give-correct-change",
+        "after": [
+          {
+            "result": {
+              "duration": 26086,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RpnCalculatorStepdefs.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "the following groceries:",
+            "match": {
+              "location": "ShoppingStepdefs.the_following_groceries(ShoppingStepdefs$Grocery\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "price"
+                ],
+                "line": 5
+              },
+              {
+                "cells": [
+                  "milk",
+                  "9"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "bread",
+                  "7"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "soap",
+                  "5"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I pay 25",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 6
+                }
+              ],
+              "location": "ShoppingStepdefs.i_pay(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "my change should be 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 20
+                }
+              ],
+              "location": "ShoppingStepdefs.my_change_should_be_(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping",
+    "description": "",
+    "id": "shopping",
+    "keyword": "Feature",
+    "uri": "org/cucumber/example/shopping.feature"
+  }
+]
